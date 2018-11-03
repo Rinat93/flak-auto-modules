@@ -1,0 +1,4 @@
+.pypirc
+Flask_auto_modules.egg-info
+dist
+build

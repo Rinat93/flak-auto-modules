@@ -1,3 +1,0 @@
-[console_scripts]
-create = src.command:create_module
-

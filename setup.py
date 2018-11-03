@@ -1,11 +1,13 @@
 from setuptools import setup,find_packages
-import os
+
+with open("./README.md", "r", errors='ignore') as fh:
+    long_description = fh.read()
 
 setup(
     name='Flask-auto_modules',
     version='1.0',
     packages=find_packages(),
-    url='http://example.com/flask-auto_modules/',
+    url='https://github.com/Rinat93/flak-auto-modules',
     license='BSD',
     author='Zakirjanov Rinat',
     author_email='rinat643@gmail.com',
@@ -23,9 +25,9 @@ setup(
     classifiers=[
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',
+        "License :: OSI Approved :: MIT License",
         'Operating System :: OS Independent',
-        'Programming Language :: Python',
+        'Programming Language :: Python :: 3',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ]
